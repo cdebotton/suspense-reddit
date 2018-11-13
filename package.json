@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "polished": "2.3.0",
+    "react": "next",
+    "react-dom": "next",
+    "react-router-dom": "4.4.0-beta.6",
+    "react-scripts": "2.1.1",
+    "styled-components": "4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +24,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^16.7.3",
+    "@types/react-dom": "^16.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/styled-components": "4.0.3",
+    "serve": "^10.1.1",
+    "typescript": "^3.1.6"
+  },
+  "resolutions": {
+    "scheduler": "0.11.0-alpha.0"
+  }
 }
